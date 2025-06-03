@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">
+                    Explore some of my recent projects.
+                </p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project1.png" alt="spotify-clone">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Vite</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">ESLint</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Spotify Clone</h3>
+                        <p class="project-description">
+                            Built a Spotify Clone with React + Vite! 🎧
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/ayushchauhan7/Spotify_Clone" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project2.png" alt="polyrythms">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Polyrhythms Visualizer</h3>
+                        <p class="project-description">
+                            In my spare time, I built a web-based interactive tool that visually demonstrates polyrhythmic patterns — the kind of complex layered rhythms often found in Afro-Cuban, Indian classical, and experimental music.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/ayushchauhan7/Polyrythms-Basic-Project" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project3.png" alt="TODO App">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">SASS</span>
+                            <span class="project-tag">Vanilla JavaScript</span>
+                            <span class="project-tag">Web Storage API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TODO App</h3>
+                        <p class="project-description">
+                            An Accessible & Responsive TODO List App!
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/ayushchauhan7/TODO-App" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
