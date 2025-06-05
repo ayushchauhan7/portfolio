@@ -82,7 +82,7 @@ I created this portfolio to:
 Want to collaborate or know more about the project?
 📧 Email: \[[chauhan0007ayush@gmail.com](mailto:chauhan0007ayush@gmail.com)]
 🔗 LinkedIn: \[https://www.linkedin.com/in/ayushchauhan7/]
-🌐 Portfolio: \[https://portfolio-production-f800.up.railway.app/]
+🌐 Portfolio: https://portfolio-production-f800.up.railway.app/
 
 ---
 
